@@ -5,10 +5,17 @@
   }
 }
 
+@media (max-width : 576px){
+  .share
+  {
+    display: none;
+  }
+}
+
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal;
+    font-style: normal; 
     font-weight: bold;
 }
 
@@ -44,9 +51,9 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.81em;
     color: #89949b;
-    /*padding-top: 5px;*/
+    padding-top: 5px;
 }
 
 main h2 {
@@ -61,13 +68,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.69em;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 nav ul li a {
-    font-size: 14px;
+    font-size: 0.88em;
     font-weight: normal;
     color: #828c92;
 }
@@ -92,45 +99,45 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p {
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .name p img {
-    /*margin-left: 12px;*/
+    margin-left: 12px;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
+    font-size: 0.75em;
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
 }
 
-/*.stats-links span, .stats-links a {
+.stats-links span, .stats-links a {
     margin-right: 20px;
-}*/
+}
 
 .stats-links a:last-child {
     margin-right: 0;
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -144,8 +151,8 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
-  /*  padding: 3px 6px 3px 25px;*/
+    font-size: 0.81em;
+    padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
     border-radius: 15px;
@@ -158,12 +165,12 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.75em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
     cursor: pointer;
-    /*padding: 7px 10px 7px 30px;*/
+    padding: 7px 10px 7px 30px;
     box-shadow: 1px 1px #d5d5d5;
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
@@ -177,7 +184,7 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.81em;
     color: #89949b;
     margin: 10px 0;
 }
@@ -208,11 +215,11 @@ input.submit {
 
 #albums .explicit {
     color: #ff5d5d;
-    /*margin-left: 5px;*/
+    margin-left: 5px;
 }
 
 nav.browse a, nav.music a {
-  /*  padding-left: 20px;*/
+    padding-left: 20px;
     padding-top: 2px;
 }
 
