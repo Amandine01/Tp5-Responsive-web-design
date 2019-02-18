@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 		<title>Rdio - Luke Chesser</title>
 
 		<!-- Latest compiled and minified CSS -->
@@ -29,12 +30,21 @@
 							<img class="pull-left" src="img/logo.png" />
 						</div>
 
-						<form method="POST" action="index.html">
+						<form class="recherche" method="POST" action="index.html">
 							<input type="search" required class="search">
 							<input type="submit" name="submit" value="Rechercher" class="submit">
 						</form>
 						<div class="user">
-						    <a href="#">Luke Chesser</a>
+							<div class="dropdown">
+							  <a href="#" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Luke Chesser
+							  </a>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							  </div>
+							</div>
 						</div>
 					</div>
 				</header>

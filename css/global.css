@@ -1,7 +1,14 @@
+@media (max-width : 992px){
+  .recherche
+  {
+    display: none;
+  }
+}
+
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
