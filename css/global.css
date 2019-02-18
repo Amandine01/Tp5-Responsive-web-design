@@ -5,7 +5,7 @@
     font-weight: bold;
 }
 
-* { 
+* {
     font-family: 'My Lucida', Console;
 }
 
@@ -39,7 +39,7 @@ header .user {
 header .user a {
     font-size: 13px;
     color: #89949b;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 
 main h2 {
@@ -59,7 +59,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-nav ul li a { 
+nav ul li a {
     font-size: 14px;
     font-weight: normal;
     color: #828c92;
@@ -90,13 +90,13 @@ h1 {
     margin: 0 0 8px 0;
 }
 
-.name p { 
+.name p {
     color: #a0aab1;
     font-size: 12px;
 }
 
-.name p img { 
-    margin-left: 12px;
+.name p img {
+    /*margin-left: 12px;*/
 }
 
 
@@ -108,9 +108,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-.stats-links span, .stats-links a {
+/*.stats-links span, .stats-links a {
     margin-right: 20px;
-}
+}*/
 
 .stats-links a:last-child {
     margin-right: 0;
@@ -138,7 +138,7 @@ input.search {
     height: 28px;
     width: 100%;
     font-size: 13px;
-    padding: 3px 6px 3px 25px;
+  /*  padding: 3px 6px 3px 25px;*/
     border: 1px solid #d0dde9;
     margin: 0;
     border-radius: 15px;
@@ -156,7 +156,7 @@ input.submit {
     border-radius: 5px;
     border: 1px solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
+    /*padding: 7px 10px 7px 30px;*/
     box-shadow: 1px 1px #d5d5d5;
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
@@ -201,11 +201,11 @@ input.submit {
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
+  /*  padding-left: 20px;*/
     padding-top: 2px;
 }
 
@@ -215,7 +215,3 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-
