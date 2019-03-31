@@ -164,6 +164,11 @@ input.submit {
     display: none;
 }
 
+.station_div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .station {
     font-size: 0.75em;
     color: #008fd5;
