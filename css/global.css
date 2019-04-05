@@ -32,10 +32,6 @@ a {
     text-decoration: none;
 }
 
-.wrapper {
-    padding: 25px 0;
-}
-
 body > header {
     margin-bottom: 20px;
     background: white;
@@ -71,6 +67,13 @@ h3 {
     font-size: 0.69em;
     font-weight: normal;
     margin-bottom: 10px;
+}
+
+.block_head{
+  border-bottom: solid #c9d1d8 1px !important;
+  margin-bottom: 30px !important;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 nav ul li a {
@@ -226,6 +229,11 @@ input.submit {
 nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
+}
+
+.drop{
+  font-size: 16px !important;
+  padding: 5px !important;
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }

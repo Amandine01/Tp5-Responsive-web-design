@@ -18,35 +18,45 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
-				<header class="col-12">
-					<div class="wrapper">
-						<div class="logo-search">
-							<img class="pull-left" src="img/logo.png" />
-						</div>
-
-						<form class="recherche" method="POST" action="index.html">
-							<input type="search" required class="search">
-							<input type="submit" name="submit" value="Rechercher" class="submit">
-						</form>
-						<div class="user">
-							<div class="dropdown">
-							  <a href="#" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							    Luke Chesser
-							  </a>
-							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							    <a class="dropdown-item" href="#">Action</a>
-							    <a class="dropdown-item" href="#">Another action</a>
-							    <a class="dropdown-item" href="#">Something else here</a>
-							  </div>
+				<header class="col-12 block_head">
+					<div class="row">
+						<div class="col-5 col-sm-3">
+							<div class="logo-search">
+								<img class="pull-left" src="img/logo.png" />
 							</div>
 						</div>
-					</div>
+
+						<div class="col-2 col-sm-6">
+							<form class="recherche" method="POST" action="index.html">
+								<input type="search" required class="search">
+								<input type="submit" name="submit" value="Rechercher" class="submit">
+							</form>
+						</div>
+
+						<div class="col-5 col-sm-3">
+							<div class="user">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    Luke Chesser
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								    <li class="drop"><a href="#"><i class="fas fa-pen"></i> Edit my profile</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li class="drop"><a href="#"><i class="fas fa-power-off"></i> Logout</a></li>
+								  </ul>
+								</div>
+							</div>
+						</div>
+					</row>
 				</header>
 
 				<aside class="col-2 col-sm-2 col-md-2 col-lg-2 d-none d-lg-block">
